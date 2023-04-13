@@ -1,0 +1,12 @@
+@mixin rise{
+    background-color: $bgcolor;
+    color: $tcolor;
+    font-size: $tsize;
+    font-family: $tfont;
+}
+@mixin fall{
+    background-color: $ogcolor;
+    color: $scolor;
+    font-size: $tsize;
+    font-family: $tfont;
+}

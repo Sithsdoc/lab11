@@ -1,0 +1,19 @@
+@import "variable";
+@import "_grid";
+@import "_style";
+
+.content{
+    @include center;
+}
+.words{
+    @include grid;
+}
+.stand{
+    @include rise;
+    @include fly;
+}
+.fall{
+    @include grid;
+    @include walk;
+    @include fall;
+}

@@ -1,0 +1,32 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.words {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.stand {
+  background-color: rgb(26, 177, 207);
+  color: red;
+  font-size: 30px;
+  font-family: helvetica, sans-serif;
+  grid-column: 1/span 1;
+}
+
+.fall {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2/span 2;
+  background-color: grey;
+  color: purple;
+  font-size: 30px;
+  font-family: helvetica, sans-serif;
+}/*# sourceMappingURL=main.css.map */

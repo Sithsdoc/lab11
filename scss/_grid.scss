@@ -1,0 +1,18 @@
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 10px;
+    width: fit-content;
+    margin: auto;
+}
+@mixin grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@mixin fly{
+    grid-column: 1 / span 1;
+}
+@mixin walk{
+    grid-column: 2 / span 2;
+}
